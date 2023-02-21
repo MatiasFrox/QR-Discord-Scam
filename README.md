@@ -1,4 +1,4 @@
-(https://imgur.com/a/p7LPy0Z)]
+(https://imgur.com/a/p7LPy0Z)
 
 ## Features
 
