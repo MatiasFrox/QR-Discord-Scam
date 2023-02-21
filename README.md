@@ -2,23 +2,23 @@
 
 ## Features
 
-- **Looks exactly like a real bot.** (when configured properly)
-- **Memory Efficient.** (doesn't use chromedriver.exe or any browser)
-- **Very stable and robust.** (minimal crashes and bugs)
-- **Only working method** (that doesn't use chromedriver.exe)
+- **Se ve exactamente como un bot real.** (cuando se configura eficientemente)
+- **memoria eficiente.** (no usa chromedriver.exe o cualquier buscador)
+- **muy estable y robusto.** (crasheos y bugs minimos)
+- **el único metodo funcional** (que no usa chromedriver.exe)
 
 ## Disclaimers
 
-- This is a bot that is not affiliated with any of the Discord or Discord Inc. teams.
-- This was made for educational purposes. It is not meant to be used for malicious purposes.
-- Any use of this bot is at your own risk. I am not responsible for any damage that may occur.
-- You need to have an <a href="https://capmonster.cloud">CapMonster</a> account with funds for optimal performance.
+- Este es un bot que no está afiliado a ninguno de los equipos de Discord o Discord Inc.
+- Esto fue hecho con fines educativos. No está destinado a ser utilizado con fines maliciosos.
+- Cualquier uso de este bot es bajo su propio riesgo. Ni yo ni tfa nos hacemos responsable de los daños que puedan ocurrir.
+- Debe tener una cuenta <a href="https://capmonster.cloud">CapMonster</a> con fondos para un rendimiento óptimo.
 
 ## How it works
 
-- The bot uses a web socket to connect to the Discord API to retrieve a login session.
-- The login session then send the bot a url to generate a QR code for the user to scan.
-- After the user scans the QR code, the bot will retrieve the token and send it to a channel.
+- El bot usa un socket web para conectarse a la API de Discord para recuperar una sesión de inicio de sesión.
+- La sesión de inicio de sesión luego envía al bot una URL para generar un código QR para que el usuario lo escanee.
+- Después de que el usuario escanee el código QR, el bot recuperará el token y lo enviará a un canal.
 
 ## Setup
 
