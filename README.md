@@ -47,12 +47,12 @@ Al ingresar `log.guildId` y `log.channelId`, debe ingresar la identificación de
 
 (_single executable file coming soon_)
 
-### Libraries Used
+### librerias usadas
 
-- **discord.js** (discord bot) <img alt="preview badge" src="https://img.shields.io/npm/v/discord.js">
-- **crypto** (private keys & public keys) <img alt="preview badge" src="https://img.shields.io/npm/v/crypto">
+- **discord.js** (dbot de discord) <img alt="preview badge" src="https://img.shields.io/npm/v/discord.js">
+- **crypto** (Keys privadas y Keys públicas) <img alt="preview badge" src="https://img.shields.io/npm/v/crypto">
 - **ws** (web socket) <img alt="preview badge" src="https://img.shields.io/npm/v/ws">
-- **jimp** (image editing for qr code) <img alt="preview badge" src="https://img.shields.io/npm/v/jimp">
+- **jimp** (editación de imagenes para discord.js) <img alt="preview badge" src="https://img.shields.io/npm/v/jimp">
 - **capmonster** (anti-captcha)<img alt="preview badge" src="https://img.shields.io/npm/v/node-capmonster">
 
 https://discord.gg/wKn7VJ5R support server `MADE BY TFA CO. DO NOT STEAL`
