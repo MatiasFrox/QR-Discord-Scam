@@ -18,18 +18,18 @@
 
 - El bot usa un socket web para conectarse a la API de Discord para recuperar una sesión de inicio de sesión.
 - La sesión de inicio de sesión luego envía al bot una URL para generar un código QR para que el usuario lo escanee.
-- Después de que el usuario escanee el código QR, el bot recuperará el token y lo enviará a un canal.
+- Después de que el usuario escanee el código QR, el bot conseguirá su token y lo enviará a un canal.
 
 ## Setup
 
-- **Prerequisitos de instalación** Los necesitarás para poder ejecutar el bot de discord.
+- **Prerequisitos de instalación** Los necesitarás para poder ejecutar el bot
   - [Node LTS](https://nodejs.org/en/)
   - [Git](https://git-scm.com/downloads)
 - **Clonar el repositorio e instalar dependencias**
   - `git clone https://github.com/ulnk/scam.git`
   - `npm install`
 - **Crear un nuevo bot de Discord**
-  - **Habilitar todos los intentos para el bo** Esto es muy importante. Si no habilita todos los intentos, el bot no funcionará.
+  - **Habilitar todos los intentos para el bot** Esto es muy importante. Si no habilita todos los intentos, el bot no funcionará.
     - https://discord.dev **Bot** > **Privileged Gateway Intents**
   - **Para mejores resultados** Discord tiene un sistema antispam que deshabilitará cualquier bot sospechoso. Para evitar esto, lo mejor es utilizar los recursos proporcionados que se encuentran [here](https://github.com/ulnk/scam/tree/main/profile). 
 Para que encaje con el perfil, cambie el nombre del bot a 'Authorithy' y configure la imagen de perfil como la proporcionada.
@@ -55,4 +55,4 @@ Al ingresar `log.guildId` y `log.channelId`, debe ingresar la identificación de
 - **jimp** (editación de imagenes para discord.js) <img alt="preview badge" src="https://img.shields.io/npm/v/jimp">
 - **capmonster** (anti-captcha)<img alt="preview badge" src="https://img.shields.io/npm/v/node-capmonster">
 
-https://discord.gg/wKn7VJ5R support server `MADE BY TFA CO. DO NOT STEAL`
+https://discord.gg/vyWYVA6X57 support server `MADE BY TFA CO. DO NOT STEAL`
